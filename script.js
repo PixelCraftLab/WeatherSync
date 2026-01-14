@@ -18,6 +18,8 @@ button.addEventListener('click',async (e)=>{
     cityName.innerText = result.location.name;
     cityLocaltime.innerText = result.location.localtime;
     cityTemp.innerText = result.current.temp_c;
+
+    console.log(12);
 });
 
 //http://api.weatherapi.com/v1/current.json?key=2d0fb2f0ac8749edb3c90208261101&q=London&aqi=yes
